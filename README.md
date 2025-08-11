@@ -1,13 +1,13 @@
-# Traffic FlowSense
+# FlowSense - Traffic Flows
 This repository contains code to estimate traffic flows from sparse mobile phone geolocation data, as part of the [FlowSense](https://research.chalmers.se/en/project/11639) research project. The estimated flows yield significant and (very) strong correlations with various ground truth datasets. With this research project, and making our code and data openly available, we intend to open up new possibilities for data-driven transport, environment and planning research as well as practice. 
 
 The code is written in PostgresSQL with PostGIS, and Python Jupyter Notebooks. It was developed for the cities of Stockholm and Gothenburg, Sweden, but can be adapted to other geographic settings world-wide.
 
 More information can be found in the accompanying paper "Estimating traffic flows from vehicle trajectories based on sparse mobile phone geolocation data", to be presented in October 2025 at the [NetMob 2025](https://netmob.org/www25/) conference. 
 
-## Using Traffic_FlowSense?
+## Using flowsense_trafficflows?
 
-If you use Traffic_FlowSense in your work, please cite the accompanying conference paper:
+If you use flowsense_trafficflows in your work, please cite the accompanying conference paper:
 
 **Citation info:** [accepted for publication] Teeuwen, R., & Gil, J. (2025). *Estimating traffic flows from vehicle trajectories based on sparse mobile phone geolocation data*. NetMob 2025 conference. Paris, France: Conservatoire national des arts et métiers.
 
