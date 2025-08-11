@@ -1,0 +1,9 @@
+geopandas==1.0.1
+mappymatch==0.6.1
+matplotlib==3.10.5
+numpy==2.3.2
+osmnx==2.0.5
+pandas==2.3.1
+scipy==1.16.1
+Shapely==2.1.1
+SQLAlchemy==2.0.38
