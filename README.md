@@ -1,5 +1,5 @@
 # Traffic FlowSense
-This repository contains code to estimate traffic flows from sparse mobile phone geolocation data, as part of the [FlowSense](https://research.chalmers.se/en/project/11639) research project. The estimated flows yield significant and strong (very) correlations with various ground truth datasets. With this research project, and making our code and data openly available, we intend to open up new possibilities for data-driven transport, environment and planning research as well as practice. 
+This repository contains code to estimate traffic flows from sparse mobile phone geolocation data, as part of the [FlowSense](https://research.chalmers.se/en/project/11639) research project. The estimated flows yield significant and (very) strong correlations with various ground truth datasets. With this research project, and making our code and data openly available, we intend to open up new possibilities for data-driven transport, environment and planning research as well as practice. 
 
 The code is written in PostgresSQL with PostGIS, and Python Jupyter Notebooks. It was developed for the cities of Stockholm and Gothenburg, Sweden, but can be adapted to other geographic settings world-wide.
 
