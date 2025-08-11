@@ -5,9 +5,24 @@ The code is written in PostgresSQL with PostGIS, and Python Jupyter Notebooks. I
 
 More information can be found in the accompanying paper "Estimating traffic flows from vehicle trajectories based on sparse mobile phone geolocation data", to be presented in October 2025 at the [NetMob 2025](https://netmob.org/www25/) conference. 
 
-## Using flowsense_trafficflows?
+## Repository overview
+This repository contains the following folders and files:
 
-If you use flowsense_trafficflows in your work, please cite the accompanying conference paper:
+- [Preprocessing](A_preprocessing)
+  - PostgreSQL code to extract mobile phone geolocation data for the areas of Stockholm and Gothenburg,
+  - and to process them to calculate e.g., distances, time differences, speeds, and point types.
+  - Python Jupyter Notebooks to preprocess a custom road network, e.g. from the Swedish Transport Administration [Trafikverket](https://www.trafikverket.se/)
+  - and to process various ground truth datasets of traffic flows in Stockholm and Gothenburg, to evaluate our flow estimates against.
+- [Estimating Flows](B_estimating_flows)
+  - Python Jupyter Notebooks to generate trajectories out of mobile phone geolocation points based on device ids and point types, and to clean these trajectories,
+  - to mapmatch these trajectories to a preprocessed custom road network,
+  - to estimate relative traffic flows for all segments in the custom road network, based on the mapmatched trajectories,
+  - and to evaluate the estimated traffic flows against various ground truth datasets.
+- [Requirements](requirements.txt)
+  - The Python modules required to run the above mentioned Jupyter Notebooks. 
+
+## Using flowsense_trafficflows?
+If you use this repository in your work, please cite the accompanying conference paper:
 
 **Citation info:** [accepted for publication] Teeuwen, R., & Gil, J. (2025). *Estimating traffic flows from vehicle trajectories based on sparse mobile phone geolocation data*. NetMob 2025 conference. Paris, France: Conservatoire national des arts et métiers.
 
