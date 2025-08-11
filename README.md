@@ -12,7 +12,7 @@ This repository contains the following folders and files:
   - PostgreSQL code to extract mobile phone geolocation data for the areas of Stockholm and Gothenburg,
   - and to process them to calculate e.g., distances, time differences, speeds, and point types.
   - Python Jupyter Notebooks to preprocess a custom road network, e.g. from the Swedish Transport Administration [Trafikverket](https://www.trafikverket.se/)
-  - and to process various ground truth datasets of traffic flows in Stockholm and Gothenburg, to evaluate our flow estimates against.
+  - and to process various ground truth datasets of traffic flows in Stockholm and Gothenburg, to evaluate our flow estimates against, e.g. from [Trafikverket](https://www.trafikverket.se/), [Stockholm municipality](https://dataportalen.stockholm.se/dataportalen/), and [Gothenburg municipality](https://data.goteborg.se/).
 - [Estimating Flows](B_estimating_flows)
   - Python Jupyter Notebooks to generate trajectories out of mobile phone geolocation points based on device ids and point types, and to clean these trajectories,
   - to mapmatch these trajectories to a preprocessed custom road network,
