@@ -26,7 +26,7 @@ If you use this repository in your work, please cite the accompanying conference
 
 **Citation info:** [accepted for publication] Teeuwen, R., & Gil, J. (2025). *Estimating traffic flows from vehicle trajectories based on sparse mobile phone geolocation data*. NetMob 2025 conference. Paris, France: Conservatoire national des arts et métiers.
 
-**Data:** Associated datasets, including estimated flows, road network data and ground truth data, are available at [zenodo link](https://zenodo.org/). Geolocation points and trajectories cannot be made public due to privacy restrictions.
+**Data:** Associated datasets, including estimated flows, road network data and ground truth data, are available at [Zenodo](https://doi.org/10.5281/zenodo.16794871). Geolocation points and trajectories cannot be made public due to privacy restrictions.
 
 **License:**
 This repository is licensed under the [GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.html).
