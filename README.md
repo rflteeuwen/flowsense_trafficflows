@@ -18,6 +18,8 @@ This repository contains the following folders and files:
   - to mapmatch these trajectories to a preprocessed custom road network,
   - to estimate relative traffic flows for all segments in the custom road network, based on the mapmatched trajectories,
   - and to evaluate the estimated traffic flows against various ground truth datasets.
+- [Postprocessing](C_postprocessing)
+  - Python Jupyter Notebook to export the generated tables to GeoJSON files, for inclusion in the associated [Zenodo](https://doi.org/10.5281/zenodo.16794871) data repository. 
 - [Requirements](requirements.txt)
   - The Python modules required to run the above mentioned Jupyter Notebooks. 
 
